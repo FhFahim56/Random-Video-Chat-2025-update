@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Video Chat Render Ready</title>
+  <style>
+    body { display:flex; justify-content:center; align-items:center; height:100vh; flex-direction:column; background:#f0f0f0; font-family:sans-serif; }
+    video { width:45%; margin:10px; border:2px solid #333; }
+    button { padding:10px 20px; margin-top:20px; font-size:16px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
+  <button id="startBtn">Start Random Chat</button>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
