@@ -1,0 +1,15 @@
+{
+  "name": "random-video-chat-render-ready",
+  "version": "1.0.0",
+  "description": "Random Video Chat - Render Ready with public folder",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Fahim Howlader",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.1"
+  }
+}
